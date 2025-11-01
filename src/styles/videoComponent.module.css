@@ -1,0 +1,95 @@
+.meetVideoContainer {
+    position: relative;
+    height: 100vh;
+    background: rgb(1, 4, 48);
+}
+
+.meetUserVideo {
+    position: absolute;
+    bottom: 10vh;
+    height: 20vh;
+    width: auto;
+    left: 0;
+    border-radius: 20px;
+}
+
+.buttonContainers {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+
+.buttonContainers svg {
+    font-size: 3rem;
+}
+
+.conferenceView { 
+
+    display: flex;
+    
+    padding: 10px;
+    gap: 10px;
+}
+
+.conferenceView  video {
+    width: 40vw;
+    height: 20vh;
+    min-width: 30vw;
+    border-radius: 10px;
+}
+
+.chatRoom {
+    position: absolute;
+    height: 90vh;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    width: 30vw;
+    padding-inline: 20px;
+}
+
+.chatContainer {
+    position: relative;
+    height: 100%;
+}
+
+
+.chattingArea {
+    position: absolute;
+    bottom: 0;
+}
+video[style*="display: none"],
+video.hidden {
+  background-color: black !important;
+}
+.sendbtn{
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+}
+.chattingArea {
+  display: flex;
+  align-items: center;
+  gap: 2px; 
+  margin-top: 10px;
+}
+
+.chattingArea .sendbtn {
+  height: 56px; 
+}
+.connectArea {
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  margin-top: 10px;
+}
+
+.connectArea .MuiTextField-root {
+  flex: 1;
+}
+
+.connectArea .MuiButton-root {
+  height: 56px;
+  white-space: nowrap;
+}
+
