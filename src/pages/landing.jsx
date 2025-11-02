@@ -41,12 +41,11 @@ export default function LandingPage() {
       <div className="landingMainContainer">
         <div>
           <h1>
-            {/* <span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones */}
-            <span style={{ color: "#FF9839" }}>Welcome</span> to connect with REEMA 
-            {/* <span style={{ color: "#FF9839" }}>Connect</span> with REEMA */}
+            <span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones
+           
           </h1>
           <br />
-          {/* <p>Cover a distance by ConnectiFy Video Call</p> */}
+          <p>Cover a distance by ConnectiFy Video Call</p>
           <br />
           <div role="button">
             <Link to={"/auth"}>Get Started</Link>
