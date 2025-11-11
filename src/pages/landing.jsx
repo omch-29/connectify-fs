@@ -25,8 +25,8 @@ export default function LandingPage() {
       {/* Navbar */}
       <nav>
         <div className="navHeader">
-          {/* <h2>ConnectiFy Video Call</h2> */}
-           <h2>Connect with REEMA on Video Call</h2>
+          <h2>ConnectiFy Video Call</h2>
+          
         </div>
         <div className="navlist">
           <p onClick={() => setShowGuestFields(!showGuestFields)}>Join as Guest</p>
