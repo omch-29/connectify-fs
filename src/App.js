@@ -8,7 +8,7 @@ import VideoMeetComponent from './pages/VideoMeet';
 import HomeComponent from './pages/home';
 import History from './pages/history';
 import GuestJoin from './pages/GuestJoin';
-// 🛑 FIX: Define a placeholder component for AuthProvider to prevent crash.
+
 
 
 function App() {
